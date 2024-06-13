@@ -1,0 +1,68 @@
+# Binaries and build output
+[Oo]bj/
+[Bb]in/
+*.suo
+*.user
+*.userosscache
+*.dll
+*.exe
+*.pdb
+*.cache
+*.tlog
+
+# Visual Studio files
+*.csproj
+*.vbproj
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.suo
+*.vssscc
+*.vspscc
+*.bak
+*.bak.*
+*.[Cc]ache
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Resharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Teamcity
+_build/
+
+# Tools
+*.resharper
+*.ncrunch*
+*.yml
+*.props
+*.nuspec
+
+# Packages
+**/packages/*
+*.nupkg
+!**/packages/build/
+
+# Others
+*.log
+*.psess
+*.vsp
+*.vspx
+*.pubxml
+*.publishproj
+
+# Ignore Visual Studio Code settings
+.vscode/launch.json
+
+# Ignore .NET Core launch settings
+**/Properties/launchSettings.json
+
+# Ignore specific files
+TodoApi.http
+appsettings.json
+appsettings.Development.json

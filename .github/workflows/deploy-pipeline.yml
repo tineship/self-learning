@@ -19,13 +19,13 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Install dependencies
-      run: dotnet restore
+      run: dotnet restore ./backend/TodoApi.csproj
 
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build ./backend/TodoApi.csproj --configuration Release --no-restore
 
     - name: Test
-      run: dotnet test --no-restore --verbosity normal
+      run: dotnet test ./backend/TodoApi.csproj --no-restore --verbosity normal
 
     - name: Publish
-      run: dotnet publish --configuration Release --no-build
+      run: dotnet publish ./backend/TodoApi.csproj --configuration Release --no-build

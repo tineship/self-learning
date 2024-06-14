@@ -11,11 +11,9 @@
 *.tlog
 
 # Visual Studio files
-*.csproj
 *.vbproj
 *.vcxproj
 *.vcxproj.filters
-*.sln
 *.suo
 *.vssscc
 *.vspscc
